@@ -3,7 +3,7 @@
 
 void main(){
     double x = 19.1322, y = 0;
-    printf("%lf = %lf + %lf\n", x, modf(x, &y), y);
+    printf("%lf = %lf + %lf\n", x, modf(x, &y), y); // y沒印出來可能是組合語言順序問題
     printf("%lf", y);
     return;
 }
