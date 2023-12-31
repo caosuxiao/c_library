@@ -20,7 +20,7 @@ void main(){
     printf("plus: %d. minus: %d. multiply: %d. divide: %d. remainder: %d.\n", c2-c1, c3-c2, c4-c3, c5-c4, c6-c5);
     c7 = clock();
     printf("the total time is %d", c7-c0);
-    return;
+    return; 
     // referenced by https://www.tutorialspoint.com/c_standard_library/c_function_clock.htm
     //               https://www.jb51.net/article/238012.htm
 }

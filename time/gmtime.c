@@ -2,7 +2,7 @@
 #include <time.h> 
 
 void main(){
-    time_t now;
+    time_t now; 
     time(&now);
     struct tm *ptr = gmtime(&now);
     printf("current time: %s", asctime(ptr));

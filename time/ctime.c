@@ -4,7 +4,7 @@
 void main(){
     time_t now;
     time(&now);
-    printf(ctime(&now), "\n");
+    printf(ctime(&now), "\n"); 
     return;
     // referenced by https://www.tutorialspoint.com/c_standard_library/c_function_ctime.htm
     //               https://hackmd.io/@Maxlight/SyPYwoUT_ & https://blog.csdn.net/QLeelq/article/details/115756474

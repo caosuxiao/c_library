@@ -3,7 +3,7 @@
 
 void main(){
     time_t now;
-    time(&now);
+    time(&now); 
     struct tm *ptr = localtime(&now);
     printf("current time: %s", asctime(ptr));
     return;

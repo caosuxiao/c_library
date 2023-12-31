@@ -17,7 +17,7 @@ void main(){
     time_t now;
     time(&now);
     struct tm *ptr = localtime(&now);
-    printf("current time: %s", asctime(ptr));
+    printf("current time: %s", asctime(ptr)); 
     return;
     // referenced by https://www.tutorialspoint.com/c_standard_library/c_function_asctime.htm
 }

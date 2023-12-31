@@ -12,7 +12,7 @@ void main(){
     struct tm *ptr2 = localtime(&nowT);
     printf("&L: %p\n&T: %p\n", &nowL, &nowT);
     printf("current time:\n");
-    printf("London: %s", asctime(ptr1));
+    printf("London: %s", asctime(ptr1)); 
     printf("Taiwan: %s", asctime(ptr2));
     return;    // 還有問題
 }
