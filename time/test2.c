@@ -14,5 +14,5 @@ void main(){
     printf("current time:\n");
     printf("London: %s", asctime(ptr1));
     printf("Taiwan: %s", asctime(ptr2));
-    return;     // 還有問題
+    return;    // 還有問題
 }
