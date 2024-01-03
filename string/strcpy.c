@@ -2,7 +2,7 @@
 #include <string.h> 
 
 void main(){
-    puts("This is function: puts!");
+    puts("This is function: puts!");    // put 會自動換行
     char str[100] ="HELLO world!";
     puts(str);
     char * pr = str + 6; // successful!

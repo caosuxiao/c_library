@@ -2,7 +2,10 @@
 #include <string.h>
 
 void main(){
-    char str1[] = "Hello", str2[] = "World";
+    char str1[50] = "Hello ", str2[] = "World";
+    strcat(str1, str2);
+    printf("str1: %s\nstr2: %s\n", str1, str2);
+    printf("----------------\n");
     strcat(str1, str2);
     printf("str1: %s\nstr2: %s", str1, str2);
     return;
