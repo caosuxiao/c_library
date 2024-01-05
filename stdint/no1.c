@@ -1,6 +1,6 @@
 /*
 define:
-
+(只有定義沒有函式)
 
 signed          unsigned
 range           range
