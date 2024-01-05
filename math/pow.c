@@ -18,6 +18,7 @@ void main(){
 }
 
 /*
+算次方
 double pow(double x, double y)
 return x ^ y
 */
