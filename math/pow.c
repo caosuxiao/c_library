@@ -5,6 +5,11 @@
 #define DEGREE PI/180
 
 void main(){
+    int x, y;
+    // scanf("%d", &x);
+    // scanf("%d", &y);
+    scanf("%d%d", &x, &y);
+    printf("%lf\n", pow(x, y));
     printf("%lf\n", (pow(sin(243 * DEGREE), 2) + pow(cos(243 * DEGREE), 2)));   // 1.000000
     printf("%lf\n", (pow(sin(243 * DEGREE), 4) + pow(cos(243 * DEGREE), 4)));   // 0.672746
     printf("%lf\n", (pow(sin(243 * DEGREE), 6) + pow(cos(243 * DEGREE), 6)));   // 0.509119
